@@ -20,7 +20,7 @@ import rx.Observer;
  */
 
 public class AboutGoodsSourceNetWork extends BaseNetWork {
-//nihao
+//你好
     protected  final NetService service = getRetrofit().create(NetService.class);
     private interface NetService{
         //设缓存有效期为1天
